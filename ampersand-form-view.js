@@ -155,7 +155,7 @@ module.exports = View.extend({
     },
 
     render: function () {
-        if (this.rendered) return;
+        //if (this.rendered) return;
         if (!this.el) {
             this.el = document.createElement('form');
         }
